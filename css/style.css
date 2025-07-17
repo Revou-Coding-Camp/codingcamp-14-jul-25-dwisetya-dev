@@ -1,0 +1,29 @@
+/* Logo icon */
+.logo-icon {
+    height: 4rem; /* setara 64px */
+    width: 4rem;
+    background-image: url("https://picsum.photos/200");
+    background-position: center;
+    background-size: cover;
+    border-radius: 9999px; /* full rounded (circle) */
+}
+
+/* Navbar container */
+.nav-bar {
+    display: flex;
+    gap: 8px; /* Tambahkan ini jika ingin ada jarak antar link */
+}
+
+/* Navbar link style */
+.nav-link {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 4px 8px;
+    text-decoration: none;
+    color: black; /* atau sesuaikan sesuai tema */
+    font-family: sans-serif;
+}
+
+.nav-link:hover {
+    background-color: #f0f0f0;
+}
