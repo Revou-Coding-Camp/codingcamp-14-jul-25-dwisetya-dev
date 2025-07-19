@@ -4,23 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RevoU Mini Project</title>
-    <link rel="icon" type="image/png" href="https://picsum.photos/200">
+    <link rel="icon" type="image/png" href="assets/logoIKN11.png">
 
     <!-- CSS External Link -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
+    
+    <div id="popup">
+        <div class="popup-content">
+            <img src="assets/logoIKN11.png" alt="">
+            <h2>Welcome to IKN Nusantara</h2>
+            <p>The New Capital of Indonesia</p>
+            <input type="text" id="popup-name" placeholder="Enter yout name" />
+            <button onclick="submitName()">OK</button>
+        </div>
+    </div>
 
     <!-- Header Content -->
     <header>
         <!-- Logo Icon -->
-        <div class="logo-icon"></div>
+        <div class="logo-icon">
+            <img src="assets/logoIKN11.png" alt="">
+        </div>
 
         <nav class="nav-bar">
-            <a class="nav-link" href="#home-page">Home</a>
-            <a class="nav-link" href="#our-profile">Our Profile</a>
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-            <a class="nav-link" href="#message-us">Message Us</a>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <div class="nav-links">
+                <a class="nav-link" href="#home-page">Home</a>
+                <a class="nav-link" href="#our-profile">Our Profile</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-link" href="#message-us">Message Us</a>
+            </div>
+
         </nav>
     </header>
 
@@ -30,12 +54,18 @@
         <!-- Home Content -->
         <section id="home-page">
             <div>
-                <h1 class="welcometext">Welcome <span id="welcome-user">[User]</span> to Our
-                    Website
-                </h1>
+                <img src="assets/logoIKN11.png" alt="">
+                <h1 class="welcometext">Hi, <span id="welcome-user">[User]</span></h1>
            
-                <p class="text">This is the home page content. Here you can find various information about our
-                    services.</p>
+                <p class="text"> <br>
+                    Selamat datang di situs resmi Ibu Kota Negara (IKN) Nusantara, Indonesia.
+                </p>
+                <p class="text">
+                    <br>
+                    IKN adalah proyek ambisius yang bertujuan untuk memindahkan ibu kota Indonesia dari Jakarta ke Nusantara, sebuah kota baru yang dirancang untuk menjadi pusat pemerintahan dan ekonomi yang modern dan berkelanjutan. Proyek ini diharapkan dapat mengurangi beban Jakarta yang selama ini menjadi pusat pemerintahan, bisnis, dan populasi terbesar di Indonesia.
+
+                    Nusantara akan dibangun dengan konsep smart city, memanfaatkan teknologi ramah lingkungan, transportasi publik yang efisien, serta tata kota yang mendukung kualitas hidup masyarakat.
+                </p>
 
                 <div class="banner-img"></div>
             </div>
@@ -43,19 +73,135 @@
 
         <!-- Our Profile Content -->
         <section id="our-profile">
+  <div class="profile-header">
+    <p>
+      Sebagai pusat pemerintahan baru Indonesia, Ibu Kota Nusantara hadir dengan visi dan misi yang kuat untuk membangun masa depan bangsa yang lebih baik. Berikut adalah penjelasan mengenai visi dan misi yang menjadi landasan pembangunan IKN Nusantara.
+    </p>
+  </div>
 
-        </section>
+  <!-- Baris 1 -->
+  <div class="profile-row">
+    <div class="profile-text">
+      <h3>Visi Ibu Kota Nusantara</h3>
+      <!-- <p> -->
+        Menjadi pusat pemerintahan yang modern, berkelanjutan, dan inklusif, serta menjadi simbol kemajuan bangsa Indonesia.
+      <!-- </p> -->
+    </div>
+    <div class="profile-image">
+      <img src="assets/logoIKN11.png" alt="Profil IKN Nusantara">
+    </div>
+  </div>
+
+  <!-- Baris 2 -->
+  <div class="profile-row">
+    <div class="profile-image">
+      <img src="assets/logoIKN11.png" alt="Visi Misi IKN Nusantara">
+    </div>
+    <div class="profile-text">
+      <h3>Misi Ibu Kota Nusantara</h3>
+      <ul>
+        <li>1. Mewujudkan tata kelola pemerintahan yang efisien dan transparan.</li>
+        <li>2. Mendorong pembangunan ekonomi yang merata dan berkelanjutan.</li>
+        <li>3. Mengembangkan infrastruktur ramah lingkungan dan teknologi canggih.</li>
+        <li>4. Meningkatkan kualitas hidup masyarakat melalui fasilitas publik yang optimal.</li>
+        <li>5. Menjadi pusat inovasi dan kolaborasi nasional maupun internasional.</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
         <!-- Portfolio Content -->
+        <section id="portfolio">
+            <!-- <h2>Nusantara Dalam Angka</h2> -->
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h4>Kawasan Strategis Nasional (KSN) IKN</h4>
+                    <h1>252.660 ha</h1>
+                </div>
+                <div class="grid-item">
+                    <h4>Visi PDB Indonesia di 2045</h4>
+                    <h1>USD 180 Miliar</h1>
+                </div>
+                <div class="grid-item">
+                    <h4>Estimasi Lapangan kerja di 2045</h4>
+                    <h1>4.811.000</h1>
+                </div>
+                <div class="grid-item">
+                    <h4>Kawasan Pengembangan IKN</h4>
+                    <h1>196.501 ha</h1>
+                    <h4>*bagian dari KSN IKN</h4>
+                </div>
+                <div class="grid-item">
+                    <h4>Kawasan IKN</h4>
+                    <h1>56.159 ha</h1>
+                    <h4>*bagian dari KSN IKN</h4>
+                </div>
+                <div class="grid-item">
+                    <h4>Kawasan Inti Pusat Pemerintahan</h4>
+                    <h1>6.671 ha</h1>
+                    <h4>*bagian dari Kawasan IKN</h4>
+                </div>
+            </div>
+        </section>
+
        
         <!-- Message Us Content -->
-       
-        </main>
+        <section id="message-us">
+            <h2>Message Us</h2>
+            <p class="subtitle">Jika Anda memiliki pertanyaan atau ingin berkontribusi dalam proyek IKN Nusantara, silakan hubungi kami melalui formulir di bawah ini:</p>
+
+            <div class="message-container" id="message-container">
+                <form id="myForm" class="form-only">
+                <!-- <fieldset> -->
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" placeholder="Nama lengkap" required />
+
+                    <label for="dob">Tanggal Lahir:</label>
+                    <input type="date" id="dob" required />
+
+                    <div class="jenis-kelamin">
+                    <label class="label-kelamin">Jenis Kelamin:</label>
+
+                    <div class="radio-wrap">
+                        <input type="radio" id="male" name="gender" value="Laki-laki" required />
+                        <label for="male">Laki-laki</label>
+                    </div>
+
+                    <div class="radio-wrap">
+                        <input type="radio" id="female" name="gender" value="Perempuan" required />
+                        <label for="female">Perempuan</label>
+                    </div>
+                    </div>
+
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" rows="4" placeholder="Tulis pesan Anda..." required></textarea>
+
+                    <button type="submit">Kirim</button>
+                <!-- </fieldset> -->
+                </form>
+
+                <div id="form-result" class="form-result" style="display: none;"></div>
+            </div>
+        </section>
+    </main>
 
     <!-- Footer Content -->
     <footer>
-
+    <div class="footer-content">
+        <img src="assets/logoIKN11.png" alt="Logo IKN Nusantara" class="footer-logo">
+        <p class="footer-text">
+            &copy; 2025 Ibu Kota Nusantara. All rights reserved.
+        </p>
+        <div class="footer-social">
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
     </footer>
-    
+
+    <!-- JavaScript External Link -->
+    <script src="js/script.js"></script>
+
 </body>
 </html>
